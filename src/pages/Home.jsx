@@ -3,7 +3,9 @@ import React from "react";
 function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <div className="mx-auto max-w-7xl">
+        <h1>Home</h1>
+      </div>
     </>
   );
 }

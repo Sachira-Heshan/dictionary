@@ -3,7 +3,9 @@ import React from "react";
 function Dictionary() {
   return (
     <>
-      <h1>Dictionary</h1>
+      <div className="mx-auto max-w-7xl">
+        <h1>Dictionary</h1>
+      </div>
     </>
   );
 }
