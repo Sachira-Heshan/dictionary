@@ -37,7 +37,7 @@ export default function Header(props) {
                         <NavLink
                           key={item.name}
                           to={item.href}
-                          className={(isActive) => {
+                          className={({ isActive }) => {
                             return (
                               (isActive
                                 ? "bg-gray-900 text-white"
